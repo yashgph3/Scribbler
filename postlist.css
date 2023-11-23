@@ -1,0 +1,77 @@
+body{
+    background: #ffeedd;
+}
+
+.post-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+.post-container .side-container{
+    margin: 10px 20px 10px 20px;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+    height: 152px;
+}
+
+.post-container .side-container h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 60%;
+    background-color: white;
+}
+
+.fa{
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.post-content{
+    background-color: gainsboro;
+    width: initial;
+    padding: 4px;
+}
+
+.post-container .side-container .post-content p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px 0px;
+    padding: 0px;
+    height: 60px;
+}
+
+.icons{
+    float: right;
+    margin: 12px;
+    cursor: pointer;
+}
+
+#DeleteHeading{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+#BtnModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+#Yes{
+   margin-right: 50%;
+}
+

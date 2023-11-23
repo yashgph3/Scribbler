@@ -1,0 +1,112 @@
+.post-container{
+    padding: 30px 60px;
+}
+
+.post-container .post-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#EditBtnContainer{
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+#editPostButton{
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ed2553;
+    color: #fff;
+    float: right;
+    outline: none;
+    border: none;
+    box-shadow: #eb3a63;
+}
+
+.fa-edit, .fa-save {
+    padding-left: 7px;
+}
+
+#post-content {
+    font-size: 14px;
+    text-align: justify;
+    margin: 0 5px;
+}
+
+.fa-thumbs-up {
+    margin-right: 5px;
+}
+
+#postText {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.like-post {
+    margin-top: 20px;
+}
+
+#likeBtn {
+    width: 80px;
+    display: block;
+    background: #ed2553;
+    color: #ffffff;
+    box-shadow: rgb(226, 80, 114);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.like-post #likeBtn:hover {
+    transform: translateY(-3px);
+}
+
+#likesCount {
+    color: #666;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+.comment-form {
+    width: 100%;
+    margin: 25px 0;
+}
+
+#commentText {
+    width: 70%;
+}
+
+.add-comment-btn {
+    width: 100px;
+    background-color: #ed2553;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: rgb(216, 85, 116);
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.allCommentsHeading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#allCommentsBox {
+    background-color: #e2e4e6;
+    padding: 10px 0;
+    width: 70%;
+    display: none;
+}
